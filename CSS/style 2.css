@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+.contenedor-header {
+    width: 100%;
+    background-color: #fbbc02;
+    height: 70px;
+ }
+
+ .mercadoliebre-header {
+    height: 50px;
+    padding: 10px 0px 0px 10px
+}
+
+body { 
+    background-color: #D6D7DB
+}
+
+.contenedor {
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    margin: 45px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.contenido {
+    margin: 20px;
+    padding: 20px;
+}    
+    
+.tarjeta {
+    margin: 20px;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+

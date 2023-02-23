@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Smooch+Sans:wght@200&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+	<link rel="icon" href="/Imagenes/favicon.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/CSS/style.css">
+	<title> Mercado liebre</title>  
+</head>
+
+<body>
+
+<header>
+
+	<div class="contenedor"> 
+		<div class="logo">
+			<img class="mercadoliebre" src="Imagenes/mercado-liebre.png"> 
+			<p class="info-menu">Todos los productos</p>
+	</div>
+	
+
+	
+	<nav>	
+		<div class="menu-texto">
+			<i class='bx bx-store-alt' ></i> <p> Encontrá todo lo que buscás</p>
+		</div>
+		
+		<div class="link">
+			<a href=#>Ingresá a tu cuenta</a><i class='bx bx-receipt'></i>
+			
+			<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#dialogo1"> Registrarse </button>
+
+			<div class="modal fade" id="dialogo1">
+				<div class="modal-dialog">
+				   <div class="modal-content">
+					 	<div class="modal header">
+							<h4 class="modal-title" id="exModalLabel"> Registarse </h4>
+							<button type="button" class="close" data-dismiss="modal">X</button>
+						</div>
+						<div class="modal-body">
+								<form class="row g-3">
+
+									<div class="col-6">
+										<label for="email-input" class="for-label">Email</label>
+										<input type="email" class="form-control" id="email-input" placeholder="Escribe tu email">
+									</div>
+					
+									<div class="col-6">
+										<label for="password-input" class="for-label">Contraseña</label>
+										<input type="password" class="form-control" id="password-input" placeholder="Crea una contraseña">
+									</div>
+					
+									<div class="col-12">
+										<label for="text-input" class="for-label">Ciudad</label>
+										<input type="text" class="form-control" id="text-input" placeholder="Ingrese su ciudad">
+									</div>
+					
+					
+									<div class="col-12">
+											<label for="text-input" class="for-label">Dirección</label>
+											 <input type="text" class="form-control" id="text-input" placeholder="Dirección">
+									 </div>
+					
+									<div class="col-8">
+										<label for="text-input" class="for-label">Nombre</label>
+									 	<input type="text" class="form-control" id="text-input" placeholder="Ingresa tu nombre">
+									</div>  
+								
+									<div class="col-8">
+										<label for="text-input" class="for-label">Apellido</label>
+									 	<input type="text" class="form-control" id="text-input" placeholder="Ingresa tu apellido">
+									</div>
+					
+									<div class="col-8">
+										<label for="text-input" class="for-label">Número celular</label>
+										 <input type="text" class="form-control" id="text-input" placeholder="Ingrese su numero de celular">
+									</div>
+					
+									<div class="col-12">
+										<button type="submit" class="btn btn-primary"> Registrarse </button> 
+									</div>
+								</form>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+								</div>
+								
+
+							</div>
+						</div>
+				   </div>
+				</div>
+			</div>
+			<!--	(link de registrar sin modal)	
+			<a href="/regirstrate.html" target="_blank"> Registrate</a><i class='bx bx-user-pin' ></i>
+			-->
+		</div>	
+
+	
+	</nav>
+
+</header>
+
+<main>
+	
+
+	<div>
+		<img src="/Imagenes/banner1.jpg" width="100%" height="100%">
+	</div>
+
+	<h3 class="p-dtc"> Productos destacados</h3>
+
+	<div class="padre-tarjetas">  
+		<div class="tarjeta col-3">
+			<img src="/Imagenes/A.M vinilo.jpg">
+			<div class="tarjeta-contenido">
+				<h5> Vinilo A.M</h5>
+				<button class="btn btn-success">Comprar</button>
+			</div>
+		</div>
+
+	<div class="tarjeta">
+		<img src="/Imagenes/rtx.jpg">
+		<div class="tarjeta-contenido">
+			<h5> Rtx 3080ti</h5>
+			<button class="btn btn-success">Comprar</button>
+		</div>
+	</div>
+
+	<div class="tarjeta">
+		<img src="/Imagenes/camiseta argentina.jpg">
+		<div class="tarjeta-contenido">
+			<h5> Camiseta Argentina</h5>
+			<button class="btn btn-success">Comprar</button>
+		</div>
+	</div>
+
+</div>
+	<hr class="con">
+	<h2 class="p-dtc"> Aprovechá éstas ofertas únicas </h2>
+	
+<!-- (primer idea de tarjetas)
+<div class="padre-tarjetas-ofertas">
+	<div class="tarjeta-ofertas">
+		<img class="imagenes-ofertas-perfume" src="/Imagenes/One million parfum.jpg">
+		<div class="tarjeta-contenido-ofertas">
+			<h5>One Million Parfum</h5>
+			<p> $20.000</p>
+			<button class="btn btn-success">Comprar</button>
+		</div>
+	</div>
+
+	<div class="tarjeta-ofertas">
+		<img class="imagenes-ofertas-tele" src="/Imagenes/tele samsung 4k.jpg">
+		<div class="tarjeta-contenido-ofertas">
+			<h5>Televisor Samsung 4k</h5>
+			<p>$152.000</p>
+			<button class="btn btn-success">Comprar</button>
+		</div>
+	</div>
+
+-->
+
+<div class="contenedor-cards">
+
+
+	<div class="card" style="width: 18rem;">
+		<img src="/Imagenes/One million parfum.jpg" class="card-img-top" alt="perfume">
+		<div class="card-body">
+	  		<h5 class="card-title">One Million Parfum</h5>
+	  		<p class="card-text">$20.000</p>
+	  		<a href="#" class="btn btn-primary">Comprar</a>
+		</div>
+  	</div>
+
+
+
+	<div class="card" style="width: 18rem;">
+		<img src="/Imagenes/tele samsung 4k.jpg" class="card-img-top" alt="perfume">
+		<div class="card-body">
+	  		<h5 class="card-title">Televisor Samsung 4k</h5>
+	  		<p class="card-text">$152.000</p>
+	  		<a href="#" class="btn btn-primary">Comprar</a>
+	</div>
+  </div>
+</div>
+
+
+<h2 class="p-dtc"> ¡Buscá tus productos favoritos!</h2>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="/Imagenes/moto g82.jpg" class="d-block w-100" alt="Motorola G82">
+	  </div>
+	  <div class="carousel-item">
+		<img src="/Imagenes/xbox one x.jpg" class="d-block w-100" alt="Xbox X">
+	  </div>
+	  <div class="carousel-item">
+		<img src="/Imagenes/Moto Yamaha.jpg" class="d-block w-100" alt="Moto Yamaha">
+	  </div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+  </div>
+
+<hr>
+	
+</main>
+
+<footer>
+
+	<div class="row">
+		<div class="col-md-4">
+			 <span>
+				<h4> Aprendé a hacer páginas así</h4>
+				<a href="https://aprendeprogramando.bue.edu.ar/" target="_blank"> <img class="imagen-footer" src="/Imagenes/Aprende programando.png" 
+				height="100px" width="300px"	alt="Aprendé programando"> </a>
+		</div>
+		<div class="col-md-4">
+			<span>
+				<h4>Redes sociales</h4>
+				<a href="https://www.instagram.com/matii.jordan27/" target="_blank"><i class='bx bxl-instagram'></i> Instagram</a>
+				<a href="https://twitter.com/MatiJordan27" target="_blank"><i class='bx bxl-twitter' style='color:#4784e8'></i> Twitter</a>
+				<a href="https://letterboxd.com/jorditan/" target="_blank"><i class='bx bx-film' ></i> Letterboxd</a>
+	|		</span>
+		</div>
+		<div class="col-md-4">
+			<span>
+				<h4> Gracias </h4>
+				<p> Esta página puede que no sea la gran cosa pero es un avance muy imporante en el aprendizaje. Gracias por las enseñanzas ;)</p>
+			</span>
+		</div>
+	</div>
+
+</footer>
+
+
+</body>
